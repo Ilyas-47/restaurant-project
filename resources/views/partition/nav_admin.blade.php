@@ -20,9 +20,15 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="{{ asset('form_plat') }}">Ajouter Un Plat</a>
-            </li>
+             </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{asset('form_chef')}}">Ajouter Un Chef</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{asset('chef_list')}}">list des Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{asset('list_plat')}}">list des Plats</a>
               </li>
             </ul>
           </div>

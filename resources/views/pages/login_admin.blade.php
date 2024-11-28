@@ -98,13 +98,13 @@
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
 
-            if (username === 'ilias@qette.com' && password === 'admin') 
-                window.location.href = 'form_plat';
+            
+            if (username === 'ilias@qette.com' && password === 'admin') {
+                window.location.href = 'form_plat'; 
             } else {
                 errorMessage.style.display = 'block';
             }
-);
+        });
     </script>
-
 </body>
 </html>

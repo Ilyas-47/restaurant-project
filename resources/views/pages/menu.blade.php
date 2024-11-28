@@ -275,11 +275,11 @@
         </div>
         <div class="chef-cards">
           <div class="chef-card">
-            <img
-              class="image-cover"
-              src="{{asset('images/Chef-Choumicha-1 1.jpg')}}"
-              alt="product 1"
-            />
+            @foreach($chefs as $chef)
+    @if($chef->image_chef)
+        <img src="{{ asset('chefs/' . $chef->image_chef) }}" alt="{{ $chef->name }}">
+    @endif
+    @endforeach
             <div class="chef-card-centent">
               <div class="leding">
                 <p>Fatima Zahra</p>
@@ -297,6 +297,7 @@
               </p>
             </div>
           </div>
+          
           <div class="chef-card">
             <img
               class="image-cover"

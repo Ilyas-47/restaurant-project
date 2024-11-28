@@ -49,8 +49,8 @@
 </head>
 <body>
     <div class="success-container">
-        <div class="success-icon">🎉</div>
-        <div class="success-text">Félicitations ! L'opération a été réalisée avec succès.</div>
+        <div class="success-icon">✅</div>
+        <div class="success-text">Les donnees a été réalisée avec succès.</div>
         <a href="{{asset('form_plat')}}" class="btn-back">Revenir à la page principale</a>
     </div>
 </body>
